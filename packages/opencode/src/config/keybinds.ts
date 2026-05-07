@@ -72,6 +72,7 @@ const KeybindsSchema = Schema.Struct({
   "prompt.autocomplete.select": keybind("return", "Select autocomplete item"),
   "prompt.autocomplete.complete": keybind("tab", "Complete autocomplete item"),
   "permission.prompt.fullscreen": keybind("ctrl+f", "Toggle permission prompt fullscreen"),
+  permission_auto_accept_toggle: keybind("none", "Toggle auto-accept for edit permissions"),
   "plugins.toggle": keybind("space", "Toggle plugin"),
   "dialog.plugins.install": keybind("shift+i", "Install plugin from plugin dialog"),
   agent_list: keybind("<leader>a", "List agents"),
